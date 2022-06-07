@@ -1,4 +1,4 @@
-[![Build](https://github.com/boggy-cs/Meokeobol-Re/actions/workflows/build.yml/badge.svg)](https://github.com/boggy-cs/Meokeobol-Re/actions/workflows/build.yml)
+[![Build](https://github.com/boggy-cs/Meokeobol-Re/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/boggy-cs/Meokeobol-Re/actions/workflows/build.yml)
 
 # Meokeobol-Re
 Recipe-based food ordering website
