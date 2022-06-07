@@ -9,9 +9,9 @@ name: Dev Build
 
 on:
   push:
-    branches: ["master", "dev"]
+    branches: ["master"]
   pull_request:
-    branches: ["master", "dev"]
+    branches: ["master"]
       
 
 permissions:
