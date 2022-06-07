@@ -1,8 +1,13 @@
 package tk.meokeobolre.meokeobolre.database.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.time.Instant;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "user")
 public class User {
@@ -22,45 +27,4 @@ public class User {
 
     @Column(name = "create_date")
     private Instant createDate;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public Instant getCreateDate() {
-        return createDate;
-    }
-
-    public void setCreateDate(Instant createDate) {
-        this.createDate = createDate;
-    }
-
 }
