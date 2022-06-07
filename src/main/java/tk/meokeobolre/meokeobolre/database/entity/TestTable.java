@@ -1,7 +1,12 @@
 package tk.meokeobolre.meokeobolre.database.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "test_table")
 public class TestTable {
@@ -12,21 +17,4 @@ public class TestTable {
 
     @Column(name = "data")
     private String data;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getData() {
-        return data;
-    }
-
-    public void setData(String data) {
-        this.data = data;
-    }
-
 }
