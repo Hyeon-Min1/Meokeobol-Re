@@ -1,7 +1,9 @@
+[![Build](https://github.com/boggy-cs/Meokeobol-Re/actions/workflows/build.yml/badge.svg)](https://github.com/boggy-cs/Meokeobol-Re/actions/workflows/build.yml)
+
+
 # Meokeobol-Re
 Recipe-based food ordering website
 
-![Build](https://github.com/boggy-cs/Meokeobol-Re/actions/workflows/build.yml/badge.svg)
 
 ## Member
 | 이름  | 역할  | Github                            |
