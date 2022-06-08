@@ -9,9 +9,6 @@ group = 'tk.meokeobolre'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
-ext.profile = (!project.hasProperty('profile') || !profile) ? 'local' : profile
-
-
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
